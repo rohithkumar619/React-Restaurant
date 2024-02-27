@@ -1,0 +1,16 @@
+.menulist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 100px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 900px) {
+  .menulist {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+}
